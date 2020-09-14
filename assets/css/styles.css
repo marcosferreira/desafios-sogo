@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+* {
+  font-family: Roboto;
+}
+
+header {
+  width: 100%;
+}
+
+header > #accessibilityBar {
+  background-color: #022447;
+  height: 42px;
+  font: Roboto;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > #accessibilityBar a {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #FFF;
+}
+
+header > #accessibilityBar > .accessibilityContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > #accessibilityBar > .accessibilityContainer .accessibilityLink {
+  height: 30px;
+  margin-top: 16px;
+  padding: 0 5px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > #accessibilityBar > .accessibilityContainer .accessibilityLink li {
+  display: inline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFF;
+  text-transform: uppercase;
+
+  list-style: none;
+  margin-right: 10px;
+}
+
+header > #accessibilityBar > .accessibilityContainer .accessibilityLink li span {
+  font-size: 11px;
+  font-variant: small-caps;
+  color: #002B57;
+  background-color: #FFF;
+  margin-right: 5px;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+.accessibilityFontSize {
+  padding: 0 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.accessibilityEye {
+  padding: 0 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.accessibilityEye a {
+  text-decoration: none;
+}
+
+.accessibilityBusiness {
+  padding: 0 10px;
+}
+
+.accessibilityBusiness a img {
+  padding: 0 5px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-container {
+  min-width: 1320px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+
+}
