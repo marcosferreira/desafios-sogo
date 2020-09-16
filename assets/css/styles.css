@@ -352,4 +352,22 @@ main .featured-small-image {
 }
 
 
-main .featured .whats-new {}
+main .featured .whats-new {
+  display: flex;
+  flex-direction: column;
+}
+
+main .featured .whats-new * {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  text-transform: uppercase;
+}
+
+main .featured .whats-new > h1 {
+  width: 117px;
+  height: 48px;
+}
+
